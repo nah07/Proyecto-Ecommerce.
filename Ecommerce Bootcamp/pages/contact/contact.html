@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+        <!-- =================HEADER=================  -->
+    <!-- <img class="navbar__logo" src="/assets/images/logo1.abascay-sin fondo.png" alt="Logo del ecommerce"> -->
+
+    <header id="home" class="header">
+        <nav class="navbar">
+            <a href="/index.html" class="navbar__nav-link">
+                <img class="navbar__logo" src="/assets/images/Logo_de_Homero.png" alt="Logo del ecommerce">
+            </a>
+            <div class="user-navbar">
+                <div class="user-navbar__cart-icon-container">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="user-navbar__user-avatar-container">
+                    <img src="/assets/images/icono_de_registro.png" class="user-navbar__user-avatar" alt="Imagen de usuario">
+                </div>
+                <!-- TODO: avatar de la persona logueada o nombre -->
+            </div>
+            
+            <input type="checkbox" class="navbar__menu-btn" id="menu-btn">
+
+            <label for="menu-btn" class="navbar__menu-label">
+                <span class="navbar__menu-icon"></span>
+            </label>
+
+
+            <ul class="navbar__nav-links-container">
+                <li class="navbar__nav-item">
+                    <a href="/index.html" class="navbar__nav-link">Inicio</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/contact/contact.html" class="navbar__nav-link">Contacto</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/about-us/about-us.html" class="navbar__nav-link">Nosotros</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/register/register.html" class="navbar__nav-link" target="_blank">Registro</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- =================TITULO=================  -->
+    <section class="main">
+        <div class="Contact">
+        <h1>Contácanos!</h1>
+            <form class="form">
+                <div>
+                    <label for="idInputName">Nombre y Apellido</label> <br>
+                    <input class="form__Nombre" type="text" name="fullName" id="idInputName" required minlength="8" maxlength="40" size="50" autofocus autocomplete="on" value="Nombre y apellido">
+                </div>
+
+                <div>
+                    <label for="emailInput">Email</label> <br>
+                    <input class="form__Email" type="email" name="email" id="emailInput" placeholder="example@ejemplo.com" required>
+                </div>
+                <div>
+                    <label for="consultas">Consulta</label> <br>
+                    <textarea  class="form__Consults" name="consults" rows="5" cols="20"></textarea>
+                </div>
+                <button type="submit" class="btn" >Enviar</button>
+            </form>
+        </div>
+        <div class="Contact">
+            <h1>Visítanos!</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210586.20706877043!2d-58.847842075!3d-34.4417519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5360f9ba691%3A0xb65c3699c74e1d15!2sRepuestos%20Homero%20srl!5e0!3m2!1ses!2sar!4v1675203430686!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </section>
+
+    <!-- =================WP LOGO=================  -->
+    
+    <div class="whatsapp-container">
+        <a href="https://walink.co/bb672a" target="_blank">
+            <img src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5302_-_Whatsapp-512.png" alt="whatsapp logo" class="logoWP">
+        </a>
+    </div>
+
+<!-- =================FOOTER=================  -->
+<footer class="footer">
+    <div class="footer__column">
+        <ul class="footer__contact-container">
+            <li class="footer__contact-item"> 
+                <a href="https://www.facebook.com/repuesto.homero.9" class="footer__contact-link">
+                    <i class="fa-brands fa-facebook footer__contact-icon footer__contact-icon--facebook"></i>
+                    Facebook
+                </a>
+            </li>
+            <li class="footer__contact-item">
+                <a href="https://www.instagram.com/patsurepuestos/?hl=es" class="footer__contact-link">
+                    <i class="fa-brands fa-instagram 
+                    footer__contact-icon
+                    footer__contact-icon--instagram"></i>
+                    Instagram
+                </a>
+            </li>
+            <li class="footer__contact-item">
+                <a href="https://www.linkedin.com/in/consuelo-maff%C3%ADa-a25853112/" class="footer__contact-link">
+                    <i class="fa-brands fa-linkedin 
+                    footer__contact-icon
+                    footer__contact-icon--linkedin"></i>
+                    LinkedIn
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__column">
+        <img src="/assets/images/Logo de la empresa.png" alt="Logo de la empresa" class="footer__logo" width="100">
+        <h2 class="footer__company-name">
+            © 2019 REPUESTOS HOMERO
+        </h2>
+        <p class="footer__copyrigth">
+            Todos los derechos son reservados
+        </p>
+    </div>
+    <div class="footer__column">
+        <ul class="footer__contact-container">
+            <li class="footer__contact-item">
+                <a href="tel:+54-1156182673" class="footer__contact-link">
+                    <i class="fa-solid 
+                    fa-square-phone-flip 
+                    footer__contact-icon--phone"></i>
+                    Telefono
+                </a>
+            </li>
+            <li class="footer__contact-item">
+                <a href="https://www.google.com/maps/place/Repuestos+Homero+srl/@-34.441752,-58.58417,10z/data=!4m6!3m5!1s0x95bca5360f9ba691:0xb65c3699c74e1d15!8m2!3d-34.4417519!4d-58.5841702!16s%2Fg%2F11lfh16gml?hl=es">
+                    <i class="fa-solid 
+                    fa-location-dot 
+                    footer__contact-icon--location"></i>
+                    Localizacion
+                </a>
+            </li>
+            <li class="footer__contact-item">
+                <a href="mailto:RepuestosHomero@gmail.com" class="footer__contact-link">
+                
+                    
+                    <i class="fa-solid 
+                    fa-envelope 
+                    footer__contact-icon--email"></i>
+                    Email
+                </a>
+            </li>
+            <li class="footer__contact-item">
+                <a href="/index.html" class="footer__contact-link">
+                
+                    <i class="fa-solid 
+                    fa-house-user
+                    footer__contact-icon--home"></i>
+                    Home
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
